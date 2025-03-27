@@ -14,6 +14,10 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
 - **Pantalla de "Game Over"**: Después de perder todas tus vidas, el juego muestra un mensaje de "Game Over" y puedes reiniciar el juego.
 - **Movimiento**: He optimizado la lógica del movimiento para que el control no sea tan brusco.
 
+## Capturas de Pantalla ✔️
+
+<img src="src\img\pm1.png" alt="Pagina de inicio" width="45%" /> &nbsp;&nbsp;&nbsp;<img src="src\img\pm2.png" alt="Pagina de juego" width="45%" />
+
 ## Requisitos ✔️
 
 - **Java 8+**: El código está escrito en Java, por lo que necesitarás tener Java 8 o superior para ejecutar el juego.
@@ -79,10 +83,6 @@ Se utiliza un `KeyListener` para detectar las teclas presionadas por el jugador.
   - `' '`: Comida
 - **Fantasmas**: Los fantasmas se mueven aleatoriamente y cambian de dirección cuando chocan con las paredes.
 - **Colisiones**: El juego maneja las colisiones de Pac-Man con las paredes, la comida y los fantasmas.
-
-## Capturas de Pantalla ✔️
-
-<img src="src\img\pm1.png" alt="Pagina de inicio" width="45%" /> &nbsp &nbsp &nbsp<img src="src\img\pm2.png" alt="Pagina de juego" width="45%" />
 
 ## Licencia ✔️
 
