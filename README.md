@@ -1,5 +1,3 @@
-# Pac-Man Java Game
-
 ## Descripción
 
 Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** utilizando la biblioteca **Swing** para la interfaz gráfica. En el juego, controlarás a Pac-Man a través de las teclas de flecha, y tu objetivo es comer toda la comida en el laberinto mientras esquivas a los fantasmas. Si los fantasmas te tocan, perderás una vida. El juego tiene elementos como pausas, reinicios y la posibilidad de mostrar un mensaje cuando has comido toda la comida del nivel.
@@ -60,17 +58,6 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
 ## Capturas de Pantalla
 
 (Agregar imágenes del juego si las tienes disponibles)
-
-## Contribuciones
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un **fork** del proyecto.
-2. Crea una **rama** para tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios.
-4. **Commit** de tus cambios (`git commit -am 'Añadir nueva funcionalidad'`).
-5. **Push** a la rama (`git push origin feature/nueva-funcionalidad`).
-6. Abre un **pull request**.
 
 ## Licencia
 
