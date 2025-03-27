@@ -2,7 +2,7 @@
 
 Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** utilizando la biblioteca **Swing** para la interfaz gráfica. En el juego, controlarás a Pac-Man a través de las teclas de flecha, y tu objetivo es comer toda la comida en el laberinto mientras esquivas a los fantasmas. Si los fantasmas te tocan, perderás una vida. El juego tiene elementos como pausas, reinicios y la posibilidad de mostrar un mensaje cuando has comido toda la comida del nivel.
 
-✔️ ## Características
+## Características ✔️
 
 - **Pantalla de inicio**: Una pantalla inicial donde puedes ver el título del juego y las instrucciones básicas.
 - **Modo Pausa**: Pausa y reanuda el juego usando la tecla **SPACE**.
@@ -13,12 +13,12 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
 - **Pantalla de "Game Over"**: Después de perder todas tus vidas, el juego muestra un mensaje de "Game Over" y puedes reiniciar el juego.
 - **Movimiento**: He optimizado la lógica del movimiento para que el control no sea tan brusco.
 
-✔️ ## Requisitos
+## Requisitos ✔️
 
 - **Java 8+**: El código está escrito en Java, por lo que necesitarás tener Java 8 o superior para ejecutar el juego.
 - **Biblioteca Swing**: El juego usa la biblioteca Swing para la interfaz gráfica, que viene incluida en el JDK de Java.
 
-## Instrucciones de Juego
+## Instrucciones de Juego ✔️
 
 1. **Pantalla de inicio**: Al abrir el juego, verás una pantalla inicial con el nombre "Pac-Man" y las instrucciones básicas.
    - **ENTER**: Comienza el juego.
@@ -40,16 +40,16 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
    - Si pierdes todas tus vidas, aparecerá una pantalla de "Game Over".
    - Presiona **ENTER** para reiniciar el juego.
 
-# Estructura del Código
+## Estructura del Código ✔️
 
-## Clase Block
+## Clase Block ✔️
 La clase `Block` representa un objeto dentro del juego, como Pac-Man, los fantasmas, las paredes y la comida. Esta clase maneja los siguientes aspectos:
 
 - **Dirección**: Define la dirección en la que se mueve el objeto.
 - **Velocidad**: Controla la velocidad con la que el objeto se mueve.
 - **Colisión**: Detecta si el objeto colisiona con otros elementos del juego, como las paredes o los fantasmas.
 
-## Clase PacMan
+## Clase PacMan ✔️
 La clase `PacMan` se encarga de gestionar el estado del juego, el movimiento de Pac-Man y las interacciones con los elementos del mapa. Sus principales responsabilidades son:
 
 - **Estado del juego**: Controla el estado actual del juego, como la carga del mapa y la lógica de las interacciones.
@@ -58,7 +58,7 @@ La clase `PacMan` se encarga de gestionar el estado del juego, el movimiento de 
 - **Interacciones con las teclas**: Permite al jugador controlar a Pac-Man usando las teclas del teclado.
 - **Dibujo en pantalla**: Se encarga de dibujar los diferentes elementos del juego (tablero, Pac-Man, fantasmas, paredes) en la ventana del juego.
 
-## Interacción de Teclas
+## Interacción de Teclas ✔️
 Se utiliza un `KeyListener` para detectar las teclas presionadas por el jugador. Esto permite que el jugador realice las siguientes acciones:
 
 - **Mover a Pac-Man**: El jugador puede mover a Pac-Man hacia arriba, abajo, izquierda o derecha.
@@ -66,7 +66,7 @@ Se utiliza un `KeyListener` para detectar las teclas presionadas por el jugador.
 - **Reiniciar el juego**: Si el jugador pierde, tiene la opción de reiniciar el juego.
 
 
-## Detalles Técnicos
+## Detalles Técnicos ✔️
 
 - **Mapa**: El mapa está compuesto por una matriz de caracteres, donde:
   - `X`: Pared
@@ -79,11 +79,10 @@ Se utiliza un `KeyListener` para detectar las teclas presionadas por el jugador.
 - **Fantasmas**: Los fantasmas se mueven aleatoriamente y cambian de dirección cuando chocan con las paredes.
 - **Colisiones**: El juego maneja las colisiones de Pac-Man con las paredes, la comida y los fantasmas.
 
-## Capturas de Pantalla
+## Capturas de Pantalla ✔️
 
-<img src="src\img\pm1.png" alt="Pagina de inicio" width="50%" />
-<img src="src\img\pm2.png" alt="Pagina de juego" width="50%" />
+<img src="src\img\pm1.png" alt="Pagina de inicio" width="45%" /><img src="src\img\pm2.png" alt="Pagina de juego" width="45%" />
 
-## Licencia
+## Licencia ✔️
 
 Este proyecto está licenciado bajo la **MIT License** - consulta el archivo [LICENSE](LICENSE) para más detalles.
