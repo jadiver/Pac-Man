@@ -2,7 +2,7 @@
 
 Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** utilizando la biblioteca **Swing** para la interfaz gráfica. En el juego, controlarás a Pac-Man a través de las teclas de flecha, y tu objetivo es comer toda la comida en el laberinto mientras esquivas a los fantasmas. Si los fantasmas te tocan, perderás una vida. El juego tiene elementos como pausas, reinicios y la posibilidad de mostrar un mensaje cuando has comido toda la comida del nivel.
 
-## Características
+✔️ ## Características
 
 - **Pantalla de inicio**: Una pantalla inicial donde puedes ver el título del juego y las instrucciones básicas.
 - **Modo Pausa**: Pausa y reanuda el juego usando la tecla **SPACE**.
@@ -13,7 +13,7 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
 - **Pantalla de "Game Over"**: Después de perder todas tus vidas, el juego muestra un mensaje de "Game Over" y puedes reiniciar el juego.
 - **Movimiento**: He optimizado la lógica del movimiento para que el control no sea tan brusco.
 
-## Requisitos
+✔️ ## Requisitos
 
 - **Java 8+**: El código está escrito en Java, por lo que necesitarás tener Java 8 o superior para ejecutar el juego.
 - **Biblioteca Swing**: El juego usa la biblioteca Swing para la interfaz gráfica, que viene incluida en el JDK de Java.
