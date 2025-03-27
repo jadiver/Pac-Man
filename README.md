@@ -81,7 +81,7 @@ Se utiliza un `KeyListener` para detectar las teclas presionadas por el jugador.
 
 ## Capturas de Pantalla
 
-![Texto alternativo](..\src\img\pm1.png)
+![Texto alternativo](src\img\pm1.png)
 
 ## Licencia
 
