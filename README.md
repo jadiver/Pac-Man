@@ -8,7 +8,7 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
 - **Modo Pausa**: Pausa y reanuda el juego usando la tecla **SPACE**.
 - **Movimiento de Pac-Man**: Puedes mover a Pac-Man en las 4 direcciones (arriba, abajo, izquierda, derecha) con las teclas de flecha.
 - **Fantasmas**: Cuatro fantasmas (azul, naranja, rosa y rojo) persiguen a Pac-Man a lo largo del mapa. Si te tocan, perderás una vida.
-- **Comida**: Recoge la comida para sumar puntos y completar el nivel.
+- **Comida**: Recoge la comida para sumar puntos y completar el nivel. Al comer todos los puntos del tablero, el mensaje "YOU CAN EAT MORE!!!" aparece por un breve periodo.
 - **Reinicio**: Cuando se acaba el juego, presiona **ENTER** para reiniciar.
 - **Pantalla de "Game Over"**: Después de perder todas tus vidas, el juego muestra un mensaje de "Game Over" y puedes reiniciar el juego.
 - **Movimiento**: He optimizado la lógica del movimiento para que el control no sea tan brusco.
@@ -40,7 +40,31 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
    - Si pierdes todas tus vidas, aparecerá una pantalla de "Game Over".
    - Presiona **ENTER** para reiniciar el juego.
 
-## Estructura del Proyecto
+# Estructura del Código
+
+## Clase Block
+La clase `Block` representa un objeto dentro del juego, como Pac-Man, los fantasmas, las paredes y la comida. Esta clase maneja los siguientes aspectos:
+
+- **Dirección**: Define la dirección en la que se mueve el objeto.
+- **Velocidad**: Controla la velocidad con la que el objeto se mueve.
+- **Colisión**: Detecta si el objeto colisiona con otros elementos del juego, como las paredes o los fantasmas.
+
+## Clase PacMan
+La clase `PacMan` se encarga de gestionar el estado del juego, el movimiento de Pac-Man y las interacciones con los elementos del mapa. Sus principales responsabilidades son:
+
+- **Estado del juego**: Controla el estado actual del juego, como la carga del mapa y la lógica de las interacciones.
+- **Carga del mapa**: Gestiona el mapa del juego, cargando las posiciones de los objetos (muros, comida, fantasmas, etc.).
+- **Lógica de movimiento**: Controla el movimiento de Pac-Man y verifica las colisiones con las paredes y los objetos.
+- **Interacciones con las teclas**: Permite al jugador controlar a Pac-Man usando las teclas del teclado.
+- **Dibujo en pantalla**: Se encarga de dibujar los diferentes elementos del juego (tablero, Pac-Man, fantasmas, paredes) en la ventana del juego.
+
+## Interacción de Teclas
+Se utiliza un `KeyListener` para detectar las teclas presionadas por el jugador. Esto permite que el jugador realice las siguientes acciones:
+
+- **Mover a Pac-Man**: El jugador puede mover a Pac-Man hacia arriba, abajo, izquierda o derecha.
+- **Pausar el juego**: El jugador puede pausar el juego cuando lo desee.
+- **Reiniciar el juego**: Si el jugador pierde, tiene la opción de reiniciar el juego.
+
 
 ## Detalles Técnicos
 
@@ -57,7 +81,7 @@ Este es un juego inspirado en el clásico **Pac-Man**, desarrollado en **Java** 
 
 ## Capturas de Pantalla
 
-(Agregar imágenes del juego si las tienes disponibles)
+![Texto alternativo](..\src\img\pm1.png)
 
 ## Licencia
 
